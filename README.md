@@ -1,12 +1,71 @@
-# React + Vite
+🌤️ Weather App
+A modern and responsive Weather App built using React JS and powered by the OpenWeatherMap API. This app allows users to get real-time weather updates for any city in the world.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 [Live Demo](https://weather-app-lake.vercel.app/)
+👉 Click here to view the live app
 
-Currently, two official plugins are available:
+🛠️ Features
+🔍 Search for current weather by city name
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌡️ Displays temperature, humidity, pressure, and weather conditions
 
-## Expanding the ESLint configuration
+🕒 Real-time updates with local time and date
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Responsive UI, works on mobile and desktop
+
+🌤️ Weather icons based on current conditions
+
+💻 Tech Stack
+React JS
+
+CSS / Tailwind / Bootstrap (choose what you used)
+
+OpenWeatherMap API
+
+Axios / Fetch API (whichever you used for API calls)
+
+📦 Installation
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/your-username/weather-app.git
+
+# Navigate to the project folder
+cd weather-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+🔐 API Key Setup
+To use the OpenWeatherMap API, follow these steps:
+
+Visit https://openweathermap.org/api
+
+Sign up and get your API key
+
+Create a .env file in your project root:
+
+bash
+Copy
+Edit
+REACT_APP_WEATHER_API_KEY=your_api_key_here
+Restart the dev server after saving the key.
+
+📷 Screenshots
+<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/e2e19bbf-8ed5-4fa2-aa64-20b57869d5c2" />
+
+
+🤝 Contributing
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+📄 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Author
+Made with 💙 by Supritam Mohanty
+
+🔖 Hashtags
+#ReactJS #WeatherApp #OpenWeatherMap #FrontendDevelopment #WebApp #APIs #JavaScript #SupritamProjects
